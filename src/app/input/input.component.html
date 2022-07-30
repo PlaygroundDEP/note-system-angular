@@ -1,0 +1,8 @@
+<form class="flex p-4 gap-3" ngForm (ngSubmit)="addNewNote(txtNote)">
+  <mat-form-field class="w-full" appearance="fill">
+    <mat-label>Enter a new note</mat-label>
+    <input #txtNote matInput>
+  </mat-form-field>
+  <button id="btn-add-note" mat-raised-button color="primary">Add Note +</button>
+</form>
+

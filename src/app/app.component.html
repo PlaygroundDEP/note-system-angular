@@ -1,0 +1,8 @@
+<header>
+  <h1 class="text-center text-4xl text-2xl mt-5">Simple Note Taking Angular App</h1>
+</header>
+<main>
+  <app-input></app-input>
+  <app-note *ngFor="let n of notes" [note]="n"></app-note>
+</main>
+
