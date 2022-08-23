@@ -19,6 +19,7 @@ export class InputComponent implements OnInit {
       .subscribe(value => {
         txtNote.value='';
         txtNote.focus();
+
       })
   }
 }
